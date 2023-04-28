@@ -25,9 +25,3 @@ spec:
       taskRef:
         kind: Task
         name: skopeo-copy
-      workspaces:
-        - name: output
-          workspace: source-folder
-  workspaces:
-    - name: source-folder
-    - name: maven-settings
